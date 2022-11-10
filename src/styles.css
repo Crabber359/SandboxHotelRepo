@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.imitation-controller {
+  width: 100%;
+  height: 200px;
+  background-color: #99aafa;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.button {
+  height: 25;
+  border-width: 0;
+  background-color: #cd1375;
+  border-radius: 6px;
+  padding: 6px;
+  color: white;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.active-button {
+  background-color: #cda213;
+}
+
+.button:active {
+  background-color: #cda213;
+}
+
+.button:first-child {
+  margin-left: 0;
+}
