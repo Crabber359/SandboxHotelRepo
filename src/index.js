@@ -7,3 +7,5 @@ import { createImitiationController } from "./ui/imitationController";
 hotelImitation.stop();
 
 createImitiationController();
+console.log("AAAAAAAAAAAAAA");
+console.log("BBBBBBBBBBBBBB");
